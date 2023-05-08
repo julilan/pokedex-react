@@ -1,0 +1,19 @@
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 18px;
+}
+
+nav ul li a.active {
+  color: #ddf7ca;
+  text-decoration: underline;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}

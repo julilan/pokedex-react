@@ -1,0 +1,41 @@
+.card {
+  background: hsla(171, 51%, 31%, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: hsla(171, 51%, 31%, 1);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  filter: grayscale(70%);
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card a {
+  text-decoration: none;
+  text-transform: none;
+  padding: 0.5rem;
+  font-size: 12px;
+  color: white;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}

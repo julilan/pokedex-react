@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="pokedex" element={<PokeList />} />
-          <Route path="pokedex:pokesingle" element={<Pokesingle />} />
+          <Route path="pokedex/:pokesingle" element={<Pokesingle />} />
         </Route>
       </Routes>
     </BrowserRouter>
